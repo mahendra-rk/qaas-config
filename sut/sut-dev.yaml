@@ -1,0 +1,17 @@
+dataplane:
+  ambari: null
+  cluster_name: dataplane
+  deployment_tool: helm
+  hosts: []
+  operating_system: docker
+  security: none
+  services:
+   dps-gateway:
+      hosts:
+      - name: dps-dev.eng.hortonworks.com
+        ports:
+        - name: http
+          port: 80
+          protocol: TCP
+      version: null
+ 
