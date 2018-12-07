@@ -12,5 +12,5 @@ services:
       - name: http
         port: 80
         protocol: TCP
-    version: null
+    version: 2.0.0.0-74
 
