@@ -6,12 +6,11 @@ operating_system: docker
 security: none
 version: 2.0.0.0-74
 services:
- dps-gateway:
+  dps-gateway:
     hosts:
     - name: dps-qe.eng.hortonworks.com
       ports:
       - name: http
         port: 80
         protocol: TCP
-    version: 2.0.0.0-74
 
