@@ -1,4 +1,4 @@
-manager: null
+ambari: null
 cluster_name: cdp
 deployment_tool: helm
 hosts: []
