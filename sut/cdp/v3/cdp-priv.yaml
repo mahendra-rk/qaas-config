@@ -1,0 +1,15 @@
+manager: null
+cluster_name: cdp
+deployment_tool: helm
+hosts: []
+operating_system: docker
+security: none
+version: 2.0.0.0-74
+services:
+  altus-gateway:
+    hosts:
+    - name: cloudera.dps.mow-dev.cloudera.comcdp-priv.mow-dev.cloudera.com
+      ports:
+      - name: http
+        port: 80
+        protocol: TCP
